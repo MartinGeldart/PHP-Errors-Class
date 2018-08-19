@@ -50,7 +50,7 @@ class Error
     $out = '
     <pre style="border-bottom:1px solid #eee;">
       '.$Date.'
-      <span style="color:red;">'.$errseverity.':</font> '.$errstr.'
+      <span style="color:red;">'.$errseverity.': '.$errstr.'
         <span style="color:#3D9700;">Line '.$errline.': '.$errfile.'</span>
       </span>
       <strong>BACKTRACE:</strong>' . PHP_EOL;
